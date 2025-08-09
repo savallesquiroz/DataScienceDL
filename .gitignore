@@ -1,0 +1,32 @@
+# Ignore virtual environment
+env-data-science/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore compiled C files (just in case)
+*.so
+
+# Ignore VS Code workspace settings (optional)
+.vscode/
+
+# Ignore datasets and large raw files (optional but recommended)
+data/raw/
+
+#ignore docs folder
+docs/
+
+# Ignore anaconda_project files
+anaconda_projects/
