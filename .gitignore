@@ -30,3 +30,7 @@ docs/
 
 # Ignore anaconda_project files
 anaconda_projects/
+
+# Ignore data directories
+data/processed/
+data/features/
