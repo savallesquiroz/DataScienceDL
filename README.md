@@ -128,10 +128,6 @@ Large binary files (.fif, .npy) should be added to .gitignore if using GitHub.
 - **Lowest subject** was **A05T (40.7%)**, highlighting variability across participants — a common challenge in EEG/BCI research.  
 - **Cross-subject generalization** was notably harder, with pooled accuracy dropping, which is consistent with the literature and motivates future work on **transfer learning** and **domain adaptation**.  
 
-Figures:
-- ![Per Subject Accuracy](figures/per_subject_accuracy.png)  
-- ![Per vs Cross Subject](figures/per_vs_cross_subject.png)
-
 ## Future Work
 
 This project establishes a baseline motor imagery classification pipeline using CSP + SVM. While the results are promising, several directions could further improve performance and generalization:
