@@ -96,7 +96,7 @@ Features for ML go in data/features/.
 
 Large binary files (.fif, .npy) should be added to .gitignore if using GitHub.
 
-## 📊 Results
+## Results
 
 ### Per-subject Accuracy
 ![Per Subject Accuracy](figures/per_subject_accuracy.png)
@@ -105,7 +105,7 @@ Large binary files (.fif, .npy) should be added to .gitignore if using GitHub.
 ![Per vs Cross Subject](figures/per_vs_cross_subject.png)
 
 <details>
-  <summary>📑 Exact per-subject results (click to expand)</summary>
+  <summary> Exact per-subject results (click to expand)</summary>
 
 | Subject | Accuracy |
 |---------|----------|
@@ -122,17 +122,17 @@ Large binary files (.fif, .npy) should be added to .gitignore if using GitHub.
 
 </details>
 
-### 📝 Interpretation
+### Interpretation
 - The system achieved an **average accuracy of ~63.5%**, which is well above the **chance level of 25%** (4 classes).  
 - **Best subject** was **A08T (90.0%)**, showing that the pipeline can reach high performance for some individuals.  
 - **Lowest subject** was **A05T (40.7%)**, highlighting variability across participants — a common challenge in EEG/BCI research.  
 - **Cross-subject generalization** was notably harder, with pooled accuracy dropping, which is consistent with the literature and motivates future work on **transfer learning** and **domain adaptation**.  
 
-📊 Figures:
+Figures:
 - ![Per Subject Accuracy](figures/per_subject_accuracy.png)  
 - ![Per vs Cross Subject](figures/per_vs_cross_subject.png)
 
-## 🔮 Future Work
+## Future Work
 
 This project establishes a baseline motor imagery classification pipeline using CSP + SVM. While the results are promising, several directions could further improve performance and generalization:
 
@@ -156,7 +156,7 @@ This project establishes a baseline motor imagery classification pipeline using 
    - Adapt the pipeline for real-time classification.  
    - Connect with software like [LabStreamingLayer](https://github.com/sccn/labstreaminglayer) for live EEG streaming. 
 
-## 📚 References
+## References
 
 This project builds upon established datasets, libraries, and methods in EEG-based Brain-Computer Interfaces (BCI):
 
